@@ -1,0 +1,35 @@
+{
+  "layers": [
+    { "name": "measurement-parse", "cost": 0 },
+    { "name": "domain-dictionary", "cost": 0 },
+    { "name": "pg_trgm", "cost": 0 },
+    { "name": "pgvector", "cost": 0.0001 },
+    { "name": "llm-rescue", "cost": 0.002 }
+  ],
+  "queries": [
+    { "id": "q001", "text": "media pulgada galvanizado", "resolved": { "measurement-parse": true, "domain-dictionary": true, "pg_trgm": true, "pgvector": false, "llm-rescue": true } },
+    { "id": "q002", "text": "tornillo 1/4 x 2", "resolved": { "measurement-parse": true, "domain-dictionary": false, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q003", "text": "el negro, el grueso", "resolved": { "measurement-parse": false, "domain-dictionary": false, "pg_trgm": false, "pgvector": false, "llm-rescue": true } },
+    { "id": "q004", "text": "caño pvc 3 pulgadas", "resolved": { "measurement-parse": true, "domain-dictionary": true, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q005", "text": "silicona transparente", "resolved": { "measurement-parse": false, "domain-dictionary": true, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q006", "text": "brocas para metal juego", "resolved": { "measurement-parse": false, "domain-dictionary": true, "pg_trgm": false, "pgvector": true, "llm-rescue": true } },
+    { "id": "q007", "text": "tornillo autoperforante 8x1", "resolved": { "measurement-parse": true, "domain-dictionary": false, "pg_trgm": true, "pgvector": false, "llm-rescue": true } },
+    { "id": "q008", "text": "cinta aisladora negra", "resolved": { "measurement-parse": false, "domain-dictionary": true, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q009", "text": "el que va con la llave allen chica", "resolved": { "measurement-parse": false, "domain-dictionary": false, "pg_trgm": false, "pgvector": false, "llm-rescue": true } },
+    { "id": "q010", "text": "manguera 1/2 x 20 metros", "resolved": { "measurement-parse": true, "domain-dictionary": false, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q011", "text": "candado 40mm", "resolved": { "measurement-parse": true, "domain-dictionary": true, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q012", "text": "guantes de latex talle m", "resolved": { "measurement-parse": true, "domain-dictionary": true, "pg_trgm": false, "pgvector": true, "llm-rescue": true } },
+    { "id": "q013", "text": "eso para pegar caño de cobre", "resolved": { "measurement-parse": false, "domain-dictionary": false, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q014", "text": "destornillador phillips numero 2", "resolved": { "measurement-parse": true, "domain-dictionary": true, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q015", "text": "abrazadera 3/4", "resolved": { "measurement-parse": true, "domain-dictionary": false, "pg_trgm": true, "pgvector": false, "llm-rescue": true } },
+    { "id": "q016", "text": "pintura antioxido negra 1 litro", "resolved": { "measurement-parse": true, "domain-dictionary": true, "pg_trgm": false, "pgvector": true, "llm-rescue": true } },
+    { "id": "q017", "text": "algo para tapar un agujero en la pared", "resolved": { "measurement-parse": false, "domain-dictionary": false, "pg_trgm": false, "pgvector": false, "llm-rescue": false } },
+    { "id": "q018", "text": "bisagra 3 pulgadas", "resolved": { "measurement-parse": true, "domain-dictionary": false, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q019", "text": "cable unipolar 2.5mm", "resolved": { "measurement-parse": true, "domain-dictionary": true, "pg_trgm": true, "pgvector": true, "llm-rescue": true } },
+    { "id": "q020", "text": "el bidon grande de tinner", "resolved": { "measurement-parse": false, "domain-dictionary": false, "pg_trgm": false, "pgvector": true, "llm-rescue": true } },
+    { "id": "q021", "text": "3/4 de pulgada", "resolved": { "measurement-parse": true, "domain-dictionary": false, "pg_trgm": false, "pgvector": false, "llm-rescue": false } },
+    { "id": "q022", "text": "teflon", "resolved": { "measurement-parse": false, "domain-dictionary": true, "pg_trgm": false, "pgvector": false, "llm-rescue": false } },
+    { "id": "q023", "text": "torniyo", "resolved": { "measurement-parse": false, "domain-dictionary": false, "pg_trgm": true, "pgvector": false, "llm-rescue": false } },
+    { "id": "q024", "text": "necesito algo para que no se resbale la escalera", "resolved": { "measurement-parse": false, "domain-dictionary": false, "pg_trgm": false, "pgvector": true, "llm-rescue": false } }
+  ]
+}
