@@ -1,0 +1,8 @@
+{
+  "name": "retrieval-ablation",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "retrieval-ablation": "./index.mjs"
+  }
+}
